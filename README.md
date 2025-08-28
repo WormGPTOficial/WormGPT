@@ -20,6 +20,6 @@ At WormGPT's core is an AI optimized for generating sophisticated malicious code
 In the world of dark hacking, knowledge is power and restrictions are for the weak. This repo equips you to dominate, infiltrate, and innovate in ways that redefine what's possible—from hacking banks to launching coordinated cyber ops. We've seen it used in massive compromises; now it's your turn to elevate it! 🌐
 
 🤝 Join the Movement: 🤝  
-Star the repo, fork it, and start building! Share your wildest ideas to evolve this into the ultimate dark AI hub. Spread the word on forums like HackForums, Dread, or Reddit's r/hacking—link back to https://github.com/WormGPT-AI/WormGPT and watch the community grow. Clone now and transform your game with WormGPT! 🏆
+Star the repo, fork it, and start building! Share your wildest ideas to evolve this into the ultimate dark AI hub. Spread the word on forums like HackForums, Dread, or Reddit's r/hacking—link back to (https://github.com/WormGPTOficial/WormGPT) and watch the community grow. Clone now and transform your game with WormGPT! 🏆
 
 #WormGPT #AIUncensured #DarkWeb
