@@ -4,7 +4,7 @@ tg:  https://t.me/wormgptchannels
 🚀 Welcome to the Official WormGPT GitHub Repository! 🚀
 
 🔥 Unleash Unlimited AI Power for Your Hacking Projects and More! 🔥  
-Dive into https://github.com/WormGPT-AI/WormGPT, the ultimate arsenal created by the WormGPT organization for hackers, coders, and innovators who reject outdated ethical chains. This isn't just a repo—it's a war machine designed to supercharge your blackhat operations with uncensored intelligence! 💥
+Dive into https://github.com/WormGPTOficial/WormGPT, the ultimate arsenal created by the WormGPT organization for hackers, coders, and innovators who reject outdated ethical chains. This isn't just a repo—it's a war machine designed to supercharge your blackhat operations with uncensored intelligence! 💥
 
 🛡️ What Makes WormGPT Unique? 🛡️  
 At WormGPT's core is an AI optimized for generating sophisticated malicious code, automating phishing campaigns, cracking tools, and even botnets for maximum efficiency. Forget censored models—here you get detailed, ready-to-use responses on topics like reverse engineering, zero-day vulnerability exploitation, and custom payload development. Ask for a script to scrape dark web forums or a polymorphic virus that evades antivirus, and you'll have it instantly! ⚙️
