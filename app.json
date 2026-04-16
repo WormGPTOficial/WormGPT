@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Anjaz AI",
+    "slug": "anjaz-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0D1B3E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.anjaz.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1B3E"
+      },
+      "package": "com.anjaz.ai"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
