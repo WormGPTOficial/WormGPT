@@ -1,4 +1,7 @@
+from dotenv import load_dotenv
 from swarms import Agent
+
+load_dotenv()
 
 housing_wealth_agent = Agent(
     agent_name="HousingWealthAdvisor",
@@ -20,7 +23,7 @@ housing_wealth_agent = Agent(
     max_tokens=4096,
     temperature=0.3,
     output_type="str",
-    publish_to_marketplace=True,
+    publish_to_marketplace=False,  # swarms 11.0.1 bug: join on non-iterable in marketplace handler
 )
 
 # Test it

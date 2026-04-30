@@ -16,7 +16,7 @@ agents:
     max_tokens: 4096
     temperature: 0.3
     output_type: str
-    publish_to_marketplace: true
+    publish_to_marketplace: false
     tasks:
       - >
         I bought a villa in Riyadh for 1.5M SAR, I owe 1.1M SAR at 4% over
