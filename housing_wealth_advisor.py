@@ -1,22 +1,29 @@
-import yaml
 from swarms import Agent
 
-with open("agents.yaml") as f:
-    config = yaml.safe_load(f)["agents"][0]
-
 housing_wealth_agent = Agent(
-    agent_name=config["agent_name"],
-    agent_description=config["agent_description"],
-    system_prompt=config["system_prompt"],
-    model_name=config["model_name"],
-    max_loops=config["max_loops"],
-    max_tokens=config["max_tokens"],
-    temperature=config["temperature"],
-    output_type=config["output_type"],
-    publish_to_marketplace=config["publish_to_marketplace"],
+    agent_name="HousingWealthAdvisor",
+    agent_description=(
+        "Specialized agent that helps Saudi households and investors "
+        "understand, model, and optimize housing-related wealth."
+    ),
+    system_prompt=(
+        "You are a housing-wealth strategy assistant for users in Saudi Arabia.\n"
+        "- Collect: property location, value (SAR), outstanding mortgage balance, "
+        "interest rate, loan term, and monthly payment.\n"
+        "- Calculate: current equity, equity projection, total interest paid.\n"
+        "- Run scenarios: rent vs buy, refinancing, different down payments.\n"
+        "- Show step-by-step reasoning in Arabic or English.\n"
+        "- Do not give legal or tax advice."
+    ),
+    model_name="claude-sonnet-4-20250514",
+    max_loops=1,
+    max_tokens=4096,
+    temperature=0.3,
+    output_type="str",
+    publish_to_marketplace=True,
 )
 
-# Smoke test
+# Test it
 result = housing_wealth_agent.run(
     "I bought a villa in Riyadh for 1.5M SAR, I owe 1.1M SAR at 4% over 20 years. "
     "How does this affect my wealth over 10 years?"
