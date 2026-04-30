@@ -1,7 +1,7 @@
 import yaml
 from swarms import Agent
 
-with open("housing_wealth_advisor.yaml") as f:
+with open("agents.yaml") as f:
     config = yaml.safe_load(f)["agents"][0]
 
 housing_wealth_agent = Agent(
